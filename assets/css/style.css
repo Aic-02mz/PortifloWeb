@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(181, 179, 179);
+        color: #333;;
 }
 
 /* This is the header at the top -done */
@@ -11,10 +11,8 @@ header {
     text-align: center;
     padding: 10px 20px;
     /* Smaller padding to make the header shorter */
-    background-color: #e7e1e1;
+    background-color: #d1cccc;
     /* White background */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* A little shadow */
 }
 
 /* The big title inside the header */
@@ -34,6 +32,10 @@ header p {
 }
 p{
     text-align: center;
+    color: black;
+}
+h1{
+        color: black;
 }
 header img {
     height: 400px;
