@@ -1,0 +1,82 @@
+/* This styles the whole page - done*/ 
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+        color: #333;;
+}
+
+/* This is the header at the top -done */
+header {
+    text-align: center;
+    padding: 10px 20px;
+    /* Smaller padding to make the header shorter */
+    /* White background */
+}
+
+/* The big title inside the header */
+header h1 {
+    font-size: 34px;
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+}
+
+/* The paragraph inside the header */
+header p {
+    font-size: 1em;
+    /* Smaller text size */
+    max-width: 600px;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+    color: black;
+}
+h1{
+        color: black;
+}
+header img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+
+/* Social media links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    /* Centers the icons */
+    gap: 15px;
+    /* Space between icons */
+    margin-top: 20px;
+    /* Space above the icons */
+}
+
+.social-links a img {
+    width: 80px;
+    /* Smaller icon size */
+    height: 80px;
+    transition: transform 0.3s ease;
+    /* Smooth zoom effect */
+}
+
+.social-links a:hover img {
+    transform: scale(1.1);
+    /* Makes icon a bit bigger when hovered */
+}
+
+
+/* For small screens like tablets and phones */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        /* Stacks the menu items vertically */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
